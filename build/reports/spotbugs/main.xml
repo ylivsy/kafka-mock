@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.1.1" sequence="0" timestamp="1621524788078" analysisTimestamp="1621524788110" release="1.0-SNAPSHOT">
+  <Project projectName="kafka-mock (spotbugsMain)">
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/config/KafkaTopicConfig.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/config/KafkaProducer$1.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/config/KafkaProducer.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/config/KafkaProducer$2.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/config/KafkaConsumerConfig.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/config/KafkaProducerConfig.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/controller/KafkaProducerController.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/controller/KafkaReaderController$1.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/controller/KafkaConsumer.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/controller/KafkaReaderController.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/controller/KafkaReaderController$MsgDesc.class</Jar>
+    <Jar>/Users/yossi.levi/workspace/kafka-mock/build/classes/java/main/kafka/application/Application.class</Jar>
+    <AuxClasspathEntry>/Users/yossi.levi/workspace/kafka-mock/libs/java_protos-1.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka/2.5.8.RELEASE/421956c5fda3b47bb57d70cbb09dcbbc66b16bd0/spring-kafka-2.5.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/f7533fe7cb8e99c87a43d325a77b4b678ad9031a/h2-1.4.200.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.4.3/4f5554ea183af87e52d8c31bb82aada0d74c40b0/spring-boot-starter-web-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.4.3/399139fae18f055ba53185fac92e770b0595636f/spring-boot-starter-actuator-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-undertow/2.4.3/97bd5c32d9d240f0ccb22d233605a2845ece3d7f/spring-boot-starter-undertow-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/2.3.7.RELEASE/f4e249de9cdf004c0034bdefe5b0768ddb6a6425/spring-boot-starter-data-jpa-2.3.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.0/8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0/commons-lang3-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.googlecode.protobuf-java-format/protobuf-java-format/1.4/b8163b6940102c1808814471476f5293dfb419df/protobuf-java-format-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.17.0-rc-2/32ce210226c4eeffd8ccdc275b597e769067f971/protobuf-java-3.17.0-rc-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.4/8dd52fbe8eafcc7c80998087ec6635baf7a98c20/spring-webmvc-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.4.5/73596ed30853bf9338fd8358ec804f0097b6d73b/spring-data-jpa-2.4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.4.3/7b26abb0a0379a00b58a2a50e010b29cf4f16b80/spring-boot-starter-json-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.4.3/333593abae74bf7ecc883460751dcc69afb82604/spring-boot-starter-aop-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/2.4.3/2c5853339333cd2b545816d57f12f9d0a0fe6932/spring-boot-starter-jdbc-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.4.3/fd8bc0fb5f5aaefb4d6c8b77eb61563aab840c11/spring-boot-starter-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.4.3/2f5f728f5f9e6d9b4af928f7beb08b8b9fc2da6/spring-boot-actuator-autoconfigure-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.4.3/2f8e1e682e55f70c8ea557982c7adb1256f41bcf/spring-boot-autoconfigure-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.4.3/1a5f125bbcb97200ba7f412f625475d21dedd776/spring-boot-actuator-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.4.3/de2bd17a8eb9bc3dfa629aa06f2e9fe3bf603c85/spring-boot-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.4/fbeadeb0e4d272599a938ec345e99e5f9a76e919/spring-context-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/5.3.4/3a70ccf3bce872bd73200ca6e176c6442872d88e/spring-messaging-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/5.3.4/fa4d4d624be8303ab75affb5cc5bbaaccb57629d/spring-orm-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.3.4/df5dccc508ae9f75f17fcfe6b96ec41e982b9950/spring-jdbc-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.3.4/1c4ab5fa203c54f9d7f8c7bbb3cc201962ccf4ab/spring-tx-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.3.1/f8644c86f2be54623c3b336a56b54216841a3f22/spring-retry-1.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/2.6.0/a07cd8835f6d81be2820b2ec0cd63a821debe107/kafka-clients-2.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.4.3/4ba28aae05a259625e7e92f8e7338c5e1d22de35/spring-boot-starter-tomcat-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.4/d93829e24a50ed22e781f2302680a210cac5ee84/spring-web-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.6.4/f91b9be9301947483ee3ab7f0874c1dad3cb04f7/micrometer-core-1.6.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-websockets-jsr/2.2.4.Final/2e4b1ca599fe7bd78e4ccb04cf880f78b11c6a5b/undertow-websockets-jsr-2.2.4.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-servlet/2.2.4.Final/e8e9cf5672a053889d92a1ba3f778e19ebd3a7e8/undertow-servlet-2.2.4.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-core/2.2.4.Final/78650b4029dd9280c4769d9425b5559f12cb83bf/undertow-core-2.2.4.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/jakarta.servlet/jakarta.servlet-api/4.0.4/b8a1142e04838fe54194049c6e7a18dae8f9b960/jakarta.servlet-api-4.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.glassfish/jakarta.el/3.0.3/dab46ee1ee23f7197c13d7c40fce14817c9017df/jakarta.el-3.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/1.3.3/c4179d48720a1e87202115fbed6089bdc4195405/jakarta.transaction-api-1.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/2.2.3/8f6ea5daedc614f07a3654a455660145286f024e/jakarta.persistence-api-2.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.28.Final/c096dbb27f83655ec252165340b532733c58e8fb/hibernate-core-5.4.28.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/5.3.4/ddbef9615d0c71c44e48dc466781963f24fa27cf/spring-aspects-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.3.4/b7180a6427ab524bc1cbd31bf38dd2182632515f/spring-aop-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.4.5/571945cb8debeb12815cb3bf6554bd5e388935e5/spring-data-commons-2.4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.4/ac6c5ea0ba82f555405f74104cf378f8071c6d25/spring-beans-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.3.4/42b71fa955e43a86471509aef14cefe756fc3794/spring-expression-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.4/46c1f8abd9e02a292c42a257350f365cec152b5d/spring-core-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.4.4-7/f7e9d149c0182968cc2a8706d3ffe82f5c9f01eb/zstd-jni-1.4.4-7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.7.1/c4d931ef8ad2c9c35d65b231a33e61428472d0da/lz4-java-1.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.7.3/241bb74a1eb37d68a4e324a4bc3865427de0a62d/snappy-java-1.1.7.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.4.5/aa1a2c00aae8e4ba8308e19940711bb9525b103d/HikariCP-3.4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.4.3/64687abc2255d18cd6592cbb20fa3bee3379cec8/spring-boot-starter-logging-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.13.3/966f6fd1af4959d6b12bfa880121d4a2b164f857/log4j-to-slf4j-2.13.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/d58bebff8cbf70ff52b59208586095f467656c30/jul-to-slf4j-1.7.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/59eb84ee0d616332ff44aba065f3888cf002cd2d/jakarta.annotation-api-1.3.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.27/359d62567480b07a679dc643f82fc926b100eed5/snakeyaml-1.27.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.11.4/e1540dea3c6c681ea4e335a960f730861ee3bedb/jackson-datatype-jdk8-2.11.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.11.4/ce6fc76bba06623720e5a9308386b6ae74753f4d/jackson-datatype-jsr310-2.11.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.11.4/432e050d79f2282a66c320375d628f1b0842cb12/jackson-module-parameter-names-2.11.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.4/5d9f3d441f99d721b957e3497f0a6465c764fad4/jackson-databind-2.11.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.43/78232648dde1a5fd5093f0a3999e593d208e2eab/tomcat-embed-websocket-9.0.43.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.43/1d102277426bdd5b12f048731a91665bb69347d1/tomcat-embed-core-9.0.43.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.12/6eb7552156e0d517ae80cc2247be1427c8d90452/HdrHistogram-2.1.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.jboss.threads/jboss-threads/3.1.0.Final/9b260c0302f637a84a52d3d118214a3c59217615/jboss-threads-3.1.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.1.2.Final/e59ffdbc6ad09eeb33507b39ffcf287679a498c8/hibernate-commons-annotations-5.1.2.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.8.0.Final/e2c29acf42ac6f42c34f0b74ba089e3f3d1b2394/xnio-api-3.8.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.wildfly.client/wildfly-client-config/1.0.1.Final/2a803b23c40a0de0f03a90d1fd3755747bc05f4b/wildfly-client-config-1.0.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.1.Final/40fd4d696c55793e996d1ff3c475833f836c2498/jboss-logging-3.4.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.3_spec/2.0.1.Final/b3744f492ce9a65d1197a5b24645dff93fa85424/jboss-annotations-api_1.3_spec-2.0.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.websocket/jboss-websocket-api_1.1_spec/2.0.0.Final/4a1f6158985b825d5b13885da33016567fd60b78/jboss-websocket-api_1.1_spec-2.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.6/ee3b73aa16df35179255f17354d9dfd8e7822835/aspectjweaver-1.9.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.27.0-GA/f63e6aa899e15eca8fdaa402a79af4c417252213/javassist-3.27.0-GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.20/c5d2d12c75c5d52f8df33f4211e6dbd05a42b117/byte-buddy-1.10.20.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.2.3.Final/d3865101f0666b63586683bd811d754517f331ab/jandex-2.2.3.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/3fe0bed568c62df5e89f4f174c101eab25345b6c/classmate-1.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.3/a75914155a9f5808963170ec20653668a2ffd2fd/dom4j-2.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.3/c46b68a6e3a2d84ba4eb14c6a8a1a9a7be4048bc/jaxb-runtime-2.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.4/ca012eb4e9e57f767aa9d5e51fe9a09b28140808/spring-jcl-5.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.4/2c3f5c079330f3a01726686a078979420f547ae4/jackson-annotations-2.11.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.11.4/593f7b18bab07a76767f181e2a2336135ce82cc4/jackson-core-2.11.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.wildfly.common/wildfly-common/1.5.2.Final/8eba40cfe86bcfcc223551e75201e6e7574c7c36/wildfly-common-1.5.2.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/48e3b9cfc10752fba3521d6511f4165bea951801/jakarta.xml.bind-api-2.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.3.3/12f70b0ea4fc1ad45315e842f63f7c9a46f46530/txw2-2.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/3.0.11/4293b5f4e4e89d598f62bb2ba73b32132e7c3a27/istack-commons-runtime-3.0.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/yossi.levi/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/ec1508160b93d274b1add34419b897bae84c6ca9/log4j-api-2.13.3.jar</AuxClasspathEntry>
+    <SrcDir>/Users/yossi.levi/workspace/kafka-mock/src/main/resources</SrcDir>
+    <SrcDir>/Users/yossi.levi/workspace/kafka-mock/src/main/java</SrcDir>
+  </Project>
+  <BugInstance type="NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE" priority="2" rank="16" abbrev="NP" category="STYLE" instanceHash="174b7feb82db06c08e5037b77e572e32" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Parameter must be non-null but is marked as nullable</ShortMessage>
+    <LongMessage>result must be non-null but is marked as nullable</LongMessage>
+    <Class classname="kafka.config.KafkaProducer$1" primary="true">
+      <SourceLine classname="kafka.config.KafkaProducer$1" start="27" end="38" sourcefile="KafkaProducer.java" sourcepath="kafka/config/KafkaProducer.java" relSourcepath="java/kafka/config/KafkaProducer.java">
+        <Message>At KafkaProducer.java:[lines 27-38]</Message>
+      </SourceLine>
+      <Message>In class kafka.config.KafkaProducer$1</Message>
+    </Class>
+    <Method classname="kafka.config.KafkaProducer$1" name="onSuccess" signature="(Lorg/springframework/kafka/support/SendResult;)V" isStatic="false" primary="true">
+      <SourceLine classname="kafka.config.KafkaProducer$1" start="31" end="33" startBytecode="0" endBytecode="104" sourcefile="KafkaProducer.java" sourcepath="kafka/config/KafkaProducer.java" relSourcepath="java/kafka/config/KafkaProducer.java"/>
+      <Message>In method kafka.config.KafkaProducer$1.onSuccess(SendResult)</Message>
+    </Method>
+    <LocalVariable name="result" register="1" pc="0" role="LOCAL_VARIABLE_PARAMETER_NAMED">
+      <Message>Parameter result</Message>
+    </LocalVariable>
+    <SourceLine classname="kafka.config.KafkaProducer$1" start="31" end="33" startBytecode="0" endBytecode="104" sourcefile="KafkaProducer.java" sourcepath="kafka/config/KafkaProducer.java" relSourcepath="java/kafka/config/KafkaProducer.java" synthetic="true">
+      <Message>At KafkaProducer.java:[lines 31-33]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" instanceHash="d71bd2bd06ea708734471dac9e708aa7" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to objectMapper in kafka.controller.KafkaConsumer.listActions(String)</LongMessage>
+    <Class classname="kafka.controller.KafkaConsumer" primary="true">
+      <SourceLine classname="kafka.controller.KafkaConsumer" start="8" end="19" sourcefile="KafkaConsumer.java" sourcepath="kafka/controller/KafkaConsumer.java" relSourcepath="java/kafka/controller/KafkaConsumer.java">
+        <Message>At KafkaConsumer.java:[lines 8-19]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaConsumer</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaConsumer" name="listActions" signature="(Ljava/lang/String;)V" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaConsumer" start="17" end="19" startBytecode="0" endBytecode="8" sourcefile="KafkaConsumer.java" sourcepath="kafka/controller/KafkaConsumer.java" relSourcepath="java/kafka/controller/KafkaConsumer.java"/>
+      <Message>In method kafka.controller.KafkaConsumer.listActions(String)</Message>
+    </Method>
+    <LocalVariable name="objectMapper" register="2" pc="8" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named objectMapper</Message>
+    </LocalVariable>
+    <SourceLine classname="kafka.controller.KafkaConsumer" primary="true" start="17" end="17" startBytecode="7" endBytecode="7" sourcefile="KafkaConsumer.java" sourcepath="kafka/controller/KafkaConsumer.java" relSourcepath="java/kafka/controller/KafkaConsumer.java">
+      <Message>At KafkaConsumer.java:[line 17]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="objectMapper"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" instanceHash="aee3a271577f81138cf56c951c0b6d28" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to ran in kafka.controller.KafkaProducerController.produceData()</LongMessage>
+    <Class classname="kafka.controller.KafkaProducerController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="22" end="50" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+        <Message>At KafkaProducerController.java:[lines 22-50]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaProducerController</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaProducerController" name="produceData" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="30" end="37" startBytecode="0" endBytecode="32" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java"/>
+      <Message>In method kafka.controller.KafkaProducerController.produceData()</Message>
+    </Method>
+    <LocalVariable name="ran" register="1" pc="8" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named ran</Message>
+    </LocalVariable>
+    <SourceLine classname="kafka.controller.KafkaProducerController" primary="true" start="30" end="30" startBytecode="7" endBytecode="7" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+      <Message>At KafkaProducerController.java:[line 30]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ran"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" instanceHash="9a429a6eb2f3e808bb27ae3ff27f2ad9" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to ran in kafka.controller.KafkaProducerController.produceEvents()</LongMessage>
+    <Class classname="kafka.controller.KafkaProducerController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="22" end="50" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+        <Message>At KafkaProducerController.java:[lines 22-50]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaProducerController</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaProducerController" name="produceEvents" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="43" end="50" startBytecode="0" endBytecode="32" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java"/>
+      <Message>In method kafka.controller.KafkaProducerController.produceEvents()</Message>
+    </Method>
+    <LocalVariable name="ran" register="1" pc="8" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named ran</Message>
+    </LocalVariable>
+    <SourceLine classname="kafka.controller.KafkaProducerController" primary="true" start="43" end="43" startBytecode="7" endBytecode="7" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+      <Message>At KafkaProducerController.java:[line 43]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ran"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="d1a2bb32459fceb42b03ce040e1902f9" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Use the nextInt method of Random rather than nextDouble to generate a random integer</ShortMessage>
+    <LongMessage>kafka.controller.KafkaProducerController.produceData() uses the nextDouble method of Random to generate a random integer; using nextInt is more efficient</LongMessage>
+    <Class classname="kafka.controller.KafkaProducerController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="22" end="50" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+        <Message>At KafkaProducerController.java:[lines 22-50]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaProducerController</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaProducerController" name="produceData" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="30" end="37" startBytecode="0" endBytecode="144" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java"/>
+      <Message>In method kafka.controller.KafkaProducerController.produceData()</Message>
+    </Method>
+    <SourceLine classname="kafka.controller.KafkaProducerController" primary="true" start="31" end="31" startBytecode="16" endBytecode="16" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+      <Message>At KafkaProducerController.java:[line 31]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" instanceHash="b4f6c8cce0dd9d56cfacda4e904bbf38" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Use the nextInt method of Random rather than nextDouble to generate a random integer</ShortMessage>
+    <LongMessage>kafka.controller.KafkaProducerController.produceEvents() uses the nextDouble method of Random to generate a random integer; using nextInt is more efficient</LongMessage>
+    <Class classname="kafka.controller.KafkaProducerController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="22" end="50" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+        <Message>At KafkaProducerController.java:[lines 22-50]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaProducerController</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaProducerController" name="produceEvents" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaProducerController" start="43" end="50" startBytecode="0" endBytecode="144" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java"/>
+      <Message>In method kafka.controller.KafkaProducerController.produceEvents()</Message>
+    </Method>
+    <SourceLine classname="kafka.controller.KafkaProducerController" primary="true" start="44" end="44" startBytecode="16" endBytecode="16" sourcefile="KafkaProducerController.java" sourcepath="kafka/controller/KafkaProducerController.java" relSourcepath="java/kafka/controller/KafkaProducerController.java">
+      <Message>At KafkaProducerController.java:[line 44]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" instanceHash="1b9524ba65116f667fe3c11426130ab8" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to readBytes in kafka.controller.KafkaReaderController.buildMsgDesc(int, int, DataInputStream, long, long)</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" start="20" end="115" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 20-115]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaReaderController" name="buildMsgDesc" signature="(IILjava/io/DataInputStream;JJ)Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" start="61" end="115" startBytecode="0" endBytecode="164" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java"/>
+      <Message>In method kafka.controller.KafkaReaderController.buildMsgDesc(int, int, DataInputStream, long, long)</Message>
+    </Method>
+    <LocalVariable name="readBytes" register="10" pc="63" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named readBytes</Message>
+    </LocalVariable>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="68" end="68" startBytecode="61" endBytecode="61" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 68]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="readBytes"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE" instanceHash="7081ac3c1913755c8f706d543ccbff4f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="440">
+    <ShortMessage>Code contains a hard coded reference to an absolute pathname</ShortMessage>
+    <LongMessage>Hard coded reference to an absolute pathname in kafka.controller.KafkaReaderController.tst()</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" start="20" end="115" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 20-115]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaReaderController" name="tst" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" start="32" end="53" startBytecode="0" endBytecode="53" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java"/>
+      <Message>In method kafka.controller.KafkaReaderController.tst()</Message>
+    </Method>
+    <String value="/Users/yossi.levi/Documents/incap_events_us_994_00000038_00011811_2021-05-11_1624.incapd" role="FILE_NAME">
+      <Message>File name /Users/yossi.levi/Documents/incap_events_us_994_00000038_00011811_2021-05-11_1624.incapd</Message>
+    </String>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="32" end="32" startBytecode="6" endBytecode="6" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 32]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" instanceHash="69bee93f57f4d221bf0a875895d7a4" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Read of unwritten field</ShortMessage>
+    <LongMessage>Read of unwritten field actionToUpdate in kafka.controller.KafkaReaderController.buildMsgDesc(int, int, DataInputStream, long, long)</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" start="20" end="115" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 20-115]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController</Message>
+    </Class>
+    <Method classname="kafka.controller.KafkaReaderController" name="buildMsgDesc" signature="(IILjava/io/DataInputStream;JJ)Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" start="61" end="115" startBytecode="0" endBytecode="874" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java"/>
+      <Message>In method kafka.controller.KafkaReaderController.buildMsgDesc(int, int, DataInputStream, long, long)</Message>
+    </Method>
+    <Field classname="kafka.controller.KafkaReaderController" name="actionToUpdate" signature="Lcom/incapsula/visit/gen/VisitProtos$Action;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController.actionToUpdate</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="95" end="95" startBytecode="285" endBytecode="285" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 95]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" instanceHash="e10712d58c66fa6d06f52a1adbad8fc8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unwritten field</ShortMessage>
+    <LongMessage>Unwritten field: kafka.controller.KafkaReaderController.actionToUpdate</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" start="20" end="115" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 20-115]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController" name="actionToUpdate" signature="Lcom/incapsula/visit/gen/VisitProtos$Action;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController.actionToUpdate</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="95" end="95" startBytecode="282" endBytecode="282" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 95]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="32d7858a0418b0db5f707bdc225728a3" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: kafka.controller.KafkaReaderController$MsgDesc.dataLogId</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" start="119" end="131" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 119-131]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController$MsgDesc</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController$MsgDesc" name="dataLogId" signature="J" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController$MsgDesc.dataLogId</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true" start="128" end="128" startBytecode="14" endBytecode="14" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 128]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="347d9cc4908bffaa0ed48d18ec092353" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: kafka.controller.KafkaReaderController$MsgDesc.extraInfo</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" start="119" end="131" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 119-131]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController$MsgDesc</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController$MsgDesc" name="extraInfo" signature="Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController$MsgDesc.extraInfo</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true" start="127" end="127" startBytecode="7" endBytecode="7" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 127]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="b373c261e708fca8c8d662eae84c514f" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: kafka.controller.KafkaReaderController$MsgDesc.len</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" start="119" end="131" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 119-131]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController$MsgDesc</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController$MsgDesc" name="len" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController$MsgDesc.len</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="64" end="64" startBytecode="27" endBytecode="27" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 64]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="de3d955bdac14a32ff78ee15ba3aec82" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: kafka.controller.KafkaReaderController$MsgDesc.localityKey</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" start="119" end="131" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 119-131]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController$MsgDesc</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController$MsgDesc" name="localityKey" signature="Ljava/lang/Long;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController$MsgDesc.localityKey</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="66" end="66" startBytecode="41" endBytecode="41" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 66]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="77cce83cfbfd4886df8981684d66a23" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: kafka.controller.KafkaReaderController$MsgDesc.msg</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" start="119" end="131" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 119-131]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController$MsgDesc</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController$MsgDesc" name="msg" signature="Lcom/google/protobuf/GeneratedMessageV3;" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController$MsgDesc.msg</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="77" end="77" startBytecode="133" endBytecode="133" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 77]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="7849246319a4914202aa345c9da7e2d2" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: kafka.controller.KafkaReaderController$MsgDesc.msgType</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" start="119" end="131" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 119-131]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController$MsgDesc</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController$MsgDesc" name="msgType" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController$MsgDesc.msgType</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="63" end="63" startBytecode="21" endBytecode="21" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 63]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="e77aef1eabaa4a2d3f8aa46e89cfccd6" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: kafka.controller.KafkaReaderController$MsgDesc.timestamp</LongMessage>
+    <Class classname="kafka.controller.KafkaReaderController$MsgDesc" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" start="119" end="131" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>At KafkaReaderController.java:[lines 119-131]</Message>
+      </SourceLine>
+      <Message>In class kafka.controller.KafkaReaderController$MsgDesc</Message>
+    </Class>
+    <Field classname="kafka.controller.KafkaReaderController$MsgDesc" name="timestamp" signature="J" isStatic="false" primary="true">
+      <SourceLine classname="kafka.controller.KafkaReaderController$MsgDesc" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+        <Message>In KafkaReaderController.java</Message>
+      </SourceLine>
+      <Message>Field kafka.controller.KafkaReaderController$MsgDesc.timestamp</Message>
+    </Field>
+    <SourceLine classname="kafka.controller.KafkaReaderController" primary="true" start="67" end="67" startBytecode="49" endBytecode="49" sourcefile="KafkaReaderController.java" sourcepath="kafka/controller/KafkaReaderController.java" relSourcepath="java/kafka/controller/KafkaReaderController.java">
+      <Message>At KafkaReaderController.java:[line 67]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugCategory category="CORRECTNESS">
+    <Description>Correctness</Description>
+  </BugCategory>
+  <BugCategory category="STYLE">
+    <Description>Dodgy code</Description>
+  </BugCategory>
+  <BugPattern type="NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE" abbrev="NP" category="STYLE">
+    <ShortDescription>Parameter must be non-null but is marked as nullable</ShortDescription>
+    <Details><![CDATA[
+
+<p> This parameter is always used in a way that requires it to be non-null,
+but the parameter is explicitly annotated as being Nullable. Either the use
+of the parameter or the annotation is wrong.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DLS_DEAD_LOCAL_STORE" abbrev="DLS" category="STYLE">
+    <ShortDescription>Dead store to local variable</ShortDescription>
+    <Details><![CDATA[
+
+<p>
+This instruction assigns a value to a local variable,
+but the value is not read or used in any subsequent instruction.
+Often, this indicates an error, because the value computed is never
+used.
+</p>
+<p>
+Note that Sun's javac compiler often generates dead stores for
+final local variables.  Because SpotBugs is a bytecode-based tool,
+there is no easy way to eliminate these false positives.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DMI_HARDCODED_ABSOLUTE_FILENAME" abbrev="DMI" category="STYLE">
+    <ShortDescription>Code contains a hard coded reference to an absolute pathname</ShortDescription>
+    <Details><![CDATA[
+
+<p>This code constructs a File object using a hard coded to an absolute pathname
+(e.g., <code>new File("/home/dannyc/workspace/j2ee/src/share/com/sun/enterprise/deployment");</code>
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="UWF_UNWRITTEN_FIELD" abbrev="UwF" category="CORRECTNESS">
+    <ShortDescription>Unwritten field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This field is never written.&nbsp; All reads of it will return the default
+value. Check for errors (should it have been initialized?), or remove it if it is useless.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="NP_UNWRITTEN_FIELD" abbrev="NP" category="CORRECTNESS">
+    <ShortDescription>Read of unwritten field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> The program is dereferencing a field that does not seem to ever have a non-null value written to it.
+Unless the field is initialized via some mechanism not seen by the analysis,
+dereferencing this value will generate a null pointer exception.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="URF_UNREAD_FIELD" abbrev="UrF" category="PERFORMANCE">
+    <ShortDescription>Unread field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_NEXTINT_VIA_NEXTDOUBLE" abbrev="Dm" category="PERFORMANCE">
+    <ShortDescription>Use the nextInt method of Random rather than nextDouble to generate a random integer</ShortDescription>
+    <Details><![CDATA[
+
+  <p>If <code>r</code> is a <code>java.util.Random</code>, you can generate a random number from <code>0</code> to <code>n-1</code>
+using <code>r.nextInt(n)</code>, rather than using <code>(int)(r.nextDouble() * n)</code>.
+</p>
+<p>The argument to nextInt must be positive. If, for example, you want to generate a random
+value from -99 to 0, use <code>-r.nextInt(100)</code>.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="DMI" cweid="440">
+    <Description>Dubious method invocation</Description>
+  </BugCode>
+  <BugCode abbrev="NP" cweid="476">
+    <Description>Null pointer dereference</Description>
+  </BugCode>
+  <BugCode abbrev="UwF">
+    <Description>Unwritten field</Description>
+  </BugCode>
+  <BugCode abbrev="UrF">
+    <Description>Unread field</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <BugCode abbrev="DLS" cweid="563">
+    <Description>Dead local store</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 20 May 2021 18:33:08 +0300" total_classes="12" referenced_classes="102" total_bugs="17" total_size="213" num_packages="3" java_version="15.0.2" vm_version="15.0.2+7" cpu_seconds="6.94" clock_seconds="3.17" peak_mbytes="425.27" alloc_mbytes="512.00" gc_seconds="0.05" priority_2="14" priority_1="3">
+    <FileStats path="kafka/application/Application.java" bugCount="0" size="14"/>
+    <FileStats path="kafka/config/KafkaConsumerConfig.java" bugCount="0" size="14"/>
+    <FileStats path="kafka/config/KafkaProducer.java" bugCount="1" size="45" bugHash="f6b474cbbf75b3f1e468f48d3da05cb3"/>
+    <FileStats path="kafka/config/KafkaProducerConfig.java" bugCount="0" size="11"/>
+    <FileStats path="kafka/config/KafkaTopicConfig.java" bugCount="0" size="12"/>
+    <FileStats path="kafka/controller/KafkaConsumer.java" bugCount="1" size="7" bugHash="0a5198ced10d597a2bf422b2ccae31de"/>
+    <FileStats path="kafka/controller/KafkaProducerController.java" bugCount="4" size="16" bugHash="e5e9ae46391547d877271b0603c5e974"/>
+    <FileStats path="kafka/controller/KafkaReaderController.java" bugCount="11" size="94" bugHash="2596cd4061ef6ff0a1777372771bb2b5"/>
+    <PackageStats package="kafka.application" total_bugs="0" total_types="1" total_size="14">
+      <ClassStats class="kafka.application.Application" sourceFile="Application.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="kafka.config" total_bugs="1" total_types="6" total_size="82" priority_2="1">
+      <ClassStats class="kafka.config.KafkaConsumerConfig" sourceFile="KafkaConsumerConfig.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="kafka.config.KafkaProducer" sourceFile="KafkaProducer.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="kafka.config.KafkaProducer$1" sourceFile="KafkaProducer.java" interface="false" size="14" bugs="1" priority_2="1"/>
+      <ClassStats class="kafka.config.KafkaProducer$2" sourceFile="KafkaProducer.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="kafka.config.KafkaProducerConfig" sourceFile="KafkaProducerConfig.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="kafka.config.KafkaTopicConfig" sourceFile="KafkaTopicConfig.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="kafka.controller" total_bugs="16" total_types="5" total_size="117" priority_2="13" priority_1="3">
+      <ClassStats class="kafka.controller.KafkaConsumer" sourceFile="KafkaConsumer.java" interface="false" size="7" bugs="1" priority_1="1"/>
+      <ClassStats class="kafka.controller.KafkaProducerController" sourceFile="KafkaProducerController.java" interface="false" size="16" bugs="4" priority_2="2" priority_1="2"/>
+      <ClassStats class="kafka.controller.KafkaReaderController" sourceFile="KafkaReaderController.java" interface="false" size="73" bugs="9" priority_2="9"/>
+      <ClassStats class="kafka.controller.KafkaReaderController$1" sourceFile="KafkaReaderController.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="kafka.controller.KafkaReaderController$MsgDesc" sourceFile="KafkaReaderController.java" interface="false" size="17" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="820" invocations="1221" avgMicrosecondsPerInvocation="672" maxMicrosecondsPerInvocation="21512" standardDeviationMicrosecondsPerInvocation="1527"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="209" invocations="102" avgMicrosecondsPerInvocation="2058" maxMicrosecondsPerInvocation="26831" standardDeviationMicrosecondsPerInvocation="4328"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="157" invocations="102" avgMicrosecondsPerInvocation="1539" maxMicrosecondsPerInvocation="18633" standardDeviationMicrosecondsPerInvocation="2930"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="148" invocations="1227" avgMicrosecondsPerInvocation="121" maxMicrosecondsPerInvocation="5119" standardDeviationMicrosecondsPerInvocation="262"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="122" invocations="303" avgMicrosecondsPerInvocation="405" maxMicrosecondsPerInvocation="10398" standardDeviationMicrosecondsPerInvocation="1011"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="110" invocations="1181" avgMicrosecondsPerInvocation="93" maxMicrosecondsPerInvocation="24894" standardDeviationMicrosecondsPerInvocation="740"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="81" invocations="102" avgMicrosecondsPerInvocation="797" maxMicrosecondsPerInvocation="11211" standardDeviationMicrosecondsPerInvocation="1750"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="74" invocations="102" avgMicrosecondsPerInvocation="728" maxMicrosecondsPerInvocation="33277" standardDeviationMicrosecondsPerInvocation="3520"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="62" invocations="102" avgMicrosecondsPerInvocation="610" maxMicrosecondsPerInvocation="22374" standardDeviationMicrosecondsPerInvocation="2552"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="61" invocations="185" avgMicrosecondsPerInvocation="334" maxMicrosecondsPerInvocation="12460" standardDeviationMicrosecondsPerInvocation="1059"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="59" invocations="102" avgMicrosecondsPerInvocation="579" maxMicrosecondsPerInvocation="17301" standardDeviationMicrosecondsPerInvocation="1835"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

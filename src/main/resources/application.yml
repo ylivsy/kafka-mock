@@ -1,0 +1,12 @@
+server:
+  port: 8096
+spring:
+  application:
+    name: kafka-mock
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+kafka:
+  bootstrapAddress: 127.0.0.1:29092
